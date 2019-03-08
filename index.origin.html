@@ -27,31 +27,10 @@
 
 <body id="page-top">
 
-  <div class="homepage-hero-module">
-    <div class="video-container">
-      <div class="filter"></div>
-      <video autoplay loop muted playsinline src="assets\Mp4\Tel-Aviv-Beach.mp4" class="fillWidth"></video>
-    </div>
-  </div>
-
-<div class="content">
-
-      <div class="row h-100 align-items-center justify-content-center text-center">
-        <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Your Really Favorite Source of Free Bootstrap Themes</h1>
-          <hr class="divider my-4">
-        </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-        </div>
-      </div>
-</div>
-
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Skeye</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -74,14 +53,12 @@
     </div>
   </nav>
 
-
   <!-- Masthead -->
-<!--
   <header class="masthead">
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Your Really Favorite Source of Free Bootstrap Themes</h1>
+          <h1 class="text-uppercase text-white font-weight-bold">Your Favorite Source of Free Bootstrap Themes</h1>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
@@ -91,7 +68,6 @@
       </div>
     </div>
   </header>
--->
 
   <!-- About Section -->
   <section class="page-section bg-primary" id="about">
@@ -280,90 +256,6 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
-
-  <script type="text/javascript">
-
-    // jQuery is required to run this code
-    $( document ).ready(function() {
-      scaleVideoContainer();
-  
-      initBannerVideoSize('.video-container .poster img');
-      initBannerVideoSize('.video-container .filter');
-      initBannerVideoSize('.video-container video');
-  
-      $(window).on('resize', function() {
-        scaleVideoContainer();
-        scaleBannerVideoSize('.video-container .poster img');
-        scaleBannerVideoSize('.video-container .filter');
-        scaleBannerVideoSize('.video-container video');
-      });
-    });
-  
-    function scaleVideoContainer() {
-      var height = $(window).height() + 5;
-      var unitHeight = parseInt(height) + 'px';
-      $('.homepage-hero-module').css('height',unitHeight);
-    }
-  
-    function initBannerVideoSize(element){
-      $(element).each(function(){
-        $(this).data('height', $(this).height());
-        $(this).data('width', $(this).width());
-      });
-  
-      scaleBannerVideoSize(element);
-    }
-  
-    function scaleBannerVideoSize(element) {
-  
-      var windowWidth = $(window).width(),
-      windowHeight = $(window).height() + 5,
-      videoWidth,
-      videoHeight;
-  
-      // console.log(windowHeight);
-  
-      $(element).each(function(){
-        var videoAspectRatio = $(this).data('height')/$(this).data('width');
-  
-        $(this).width(windowWidth);
-  
-        if(windowWidth < 1000){
-            videoHeight = windowHeight;
-            videoWidth = videoHeight / videoAspectRatio;
-            $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
-  
-            $(this).width(videoWidth).height(videoHeight);
-        }
-  
-        $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
-  
-      });
-    }
-  
-  </script>
-
-  <style>
-    .homepage-hero-module {
-      border-right: none;
-      border-left: none;
-      position: relative;
-    }
-  
-    .no-video .video-container video,
-    .touch .video-container video {
-      display: none;
-    }
-  .content {
-    position: fixed;
-    top: 60px;;
-    background: transparent;
-    color: #ffffff;
-    width: 100%;
-    padding: 20px;
-  }
-    
-  </style>
 
 </body>
 
