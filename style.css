@@ -62,6 +62,10 @@
   /* Other styles here */
 }
 
+.marinTop {
+  margin-top: 50px;
+}
+
 .h2_inline {
   display: inline-block;
 }
