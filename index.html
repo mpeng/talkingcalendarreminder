@@ -26,9 +26,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-    <!--
-    <link rel="manifest" href="/manifest.json">
-    -->
+    <link rel="manifest" href="ssets/images/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -321,9 +319,26 @@
         </div>
       </nav>
 
+      <!--
       <div id="player-overlay">
         <video  autoplay loop muted playsinline  src="assets\Mp4\notestaker1920x1080.mp4"></video>
       </div>
+      -->
+
+      <section class="home-section home-full-height bg-dark-30" id="home" data-background="assets/images/section-5.jpg">
+        <div class="video-player" data-property="{videoURL:'https://youtu.be/v4Ou0Inqzs0', containment:'.home-section', startAt:18, mute:false, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
+        <div class="video-controls-box">
+          <div class="container">
+            <div class="video-controls"><a class="fa fa-volume-up" id="video-volume" href="#">&nbsp;</a><a class="fa fa-pause" id="video-play" href="#">&nbsp;</a></div>
+          </div>
+        </div>
+        <div class="titan-caption">
+          <div class="caption-content">
+            <div class="font-alt mb-30 titan-title-size-1">Hello &amp; welcome</div>
+            <div class="font-alt mb-40 titan-title-size-4">We are Titan</div><a class="section-scroll btn btn-border-w btn-round" href="#about">Learn More</a>
+          </div>
+        </div>
+      </section>
 
       <div class="main">
         <section class="module" id="alt-features">
