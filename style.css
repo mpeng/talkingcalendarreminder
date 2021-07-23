@@ -49,13 +49,13 @@
 }
 
 .icon {
-  background: url('icons/alarm-clock-32 light blue.ico');
-  height: 32px;
-  width: 32px;
+  background: url('icons/alarm-clock-16 light blue.png');
+  height: 16px;
+  width: 16px;
   display: inline-flex;
   margin-left: 0px;
   margin-right: 10px;
-  margin-bottom: -5px;
+  margin-bottom: -3px;
 }
 
 .outlook_icon {
