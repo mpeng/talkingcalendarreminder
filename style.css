@@ -76,6 +76,25 @@
   margin-top: 50px;
 }
 
+.navbar_height {
+  height: 20px;
+}
+.navbar2 {
+  height: 50px;
+  position: relative;
+  min-height: 20px;
+  margin-bottom: 2px;
+  border: 1px solid transparent;
+}
+
+.navbar-brand2 {
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+
 .h2_inline {
   display: inline-block;
 }
