@@ -43,6 +43,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/assets/images/favicons/manifest.json">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js">
           <value>
             <set />
