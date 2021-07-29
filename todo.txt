@@ -1,3 +1,6 @@
 Refused to display 'https://www.youtube.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'.
 
 https://www.youtube.com/watch?v=NNvCECgiWQ4
+
+
+Move development from https://github.com/mpeng/talkingcalendarreminder.git to https://github.com/mpeng/voicereminder.git
